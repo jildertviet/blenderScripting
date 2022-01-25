@@ -1,8 +1,9 @@
 # Blender + Python example
 
-To execute the script, press: Alt + P while cursor is in Text Editor.
+To execute the script, press: Alt + P while cursor is in Text Editor.  
+(When the Text-editor window in Blender is large enought, there's also a play button :arrow_forward:)  
 
-Python file is:
+Contents of Python file:
 ```
 import bpy
 import random
