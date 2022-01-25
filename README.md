@@ -28,3 +28,21 @@ for i in range(0,100):
     cube.data.materials.append(bpy.data.materials['CubeMaterial'])
     cube.location = (r() * spaceRange, r() * spaceRange, r() * spaceRange)
 ```
+
+## Error messages
+How to see the error messages?
+
+For Windows, see [this](https://blender.stackexchange.com/questions/46903/how-to-view-python-error-messages)  
+For OSX:
+- Open the application Terminal, then  
+
+In Finder:
+- Go to Apps
+- Right click Blender.
+- Show Package Contents (*Toon pakketinhoud*)
+- Contents
+- MacOS
+- Now drag the Blender file to the Terminal window
+  This shows the path to the file, press Enter to open it
+
+Now you can see the Python messages (like errors, or `print()`) in the Terminal window.
